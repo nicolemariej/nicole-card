@@ -6,7 +6,7 @@ import { FaLinkedin} from 'react-icons/fa';
 export default function Info(){
     return (
         <div>
-            <img src={nicole} alt="Nicole" />
+            <img src={nicole} alt="Nicole" className="nicole-image"/>
             <h1>Nicole Jones</h1>
             <h2>Frontend Developer</h2>
                 <a href="https://www.nicodes.io/" target="blank">Nicodes.io</a>

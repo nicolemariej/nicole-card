@@ -7,10 +7,12 @@ import Interests from './interests';
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <Info />
       <About />
       <Interests />
       <Footer />
+    </div>
     </div>
   );
 }

@@ -14,9 +14,6 @@ export default function Footer(){
         <FaInstagramSquare />
         <FaGithubSquare />
 
-
-            <h1>Footer</h1>
-
         </div>
     )
 }
