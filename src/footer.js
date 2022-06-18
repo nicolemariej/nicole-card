@@ -9,10 +9,10 @@ import { FaGithubSquare} from 'react-icons/fa';
 export default function Footer(){
     return (
         <footer>
-        <a href="https://twitter.com/nicolessay" target ="blank"><FaTwitterSquare /></a>
-        <a href="https://www.facebook.com/profile.php?id=657140234"><FaFacebookSquare /></a>
-        <a href="https://www.instagram.com/nicoletravelstheworld/"><FaInstagramSquare /></a>
-        <a href="https://github.com/nicolemariej"><FaGithubSquare /></a>
+        <a href="https://twitter.com/nicolessay" target ="blank" className="icon"><FaTwitterSquare /></a>
+        <a href="https://www.facebook.com/profile.php?id=657140234" target="blank" className="icon"><FaFacebookSquare /></a>
+        <a href="https://www.instagram.com/nicoletravelstheworld/" target="blank" className="icon"><FaInstagramSquare /></a>
+        <a href="https://github.com/nicolemariej" target="blank" className="icon"><FaGithubSquare /></a>
 
         </footer>
     )
