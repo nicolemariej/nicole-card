@@ -40,6 +40,8 @@ body {
   display: flex;
   justify-content: center;
   color: #F5F5F5;
+  text-decoration: none;
+  font-size: 20px;
 
 }
 
@@ -47,4 +49,50 @@ body {
   display: flex;
   justify-content: center;
   margin: 30px;
+}
+
+p{
+  text-align:justify
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+.written-content{
+  padding: 50px;
+}
+
+.email-btn{
+  background-color: #FFFFFF;
+  font-size: 30px;
+  padding: 10px 55px;
+  border-radius: 6px;
+  margin-right: 40px;
+display: flex;
+  justify-content: center;
+
+ 
+}
+
+.linked-btn{
+  background-color: #5093E2;
+  font-size: 30px;
+  padding: 10px 35px;
+  border-radius: 6px;
+  margin-left: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+ 
+}
+
+.email-icon{
+  margin-right: 10px;
+}
+
+.linked-icon{
+  margin-right: 10px;
 }

@@ -11,8 +11,8 @@ export default function Info(){
             <h2 className="title">Frontend Developer</h2>
                 <a className="website" href="https://www.nicodes.io/" target="blank">Nicodes.io</a>
             <div className="contact-buttons">
-                <button href="mailto: nicodesjones@gmail.com" target="blank"><MdEmail />Email</button>
-                <button href="https://www.linkedin.com/in/nicolemairejones/" target="blank"><FaLinkedin />LinkedIn</button>
+                <button className="email-btn" href="mailto: nicodesjones@gmail.com" target="blank"><span className="email-icon"><MdEmail /> </span> Email</button>
+                <button className="linked-btn" href="https://www.linkedin.com/in/nicolemairejones/" target="blank"><span className="linked-icon"><FaLinkedin /> </span> LinkedIn</button>
             </div>
         
         </div>
