@@ -12,8 +12,9 @@ function App() {
       <Info />
       <About />
       <Interests />
-      <Footer />
       </div>
+      <Footer />
+      
     </div>
     </div>
   );

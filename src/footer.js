@@ -8,12 +8,12 @@ import { FaGithubSquare} from 'react-icons/fa';
 
 export default function Footer(){
     return (
-        <div>
-        <FaTwitterSquare />
-        <FaFacebookSquare />
-        <FaInstagramSquare />
-        <FaGithubSquare />
+        <footer>
+        <a href="https://twitter.com/nicolessay" target ="blank"><FaTwitterSquare /></a>
+        <a href="https://www.facebook.com/profile.php?id=657140234"><FaFacebookSquare /></a>
+        <a href="https://www.instagram.com/nicoletravelstheworld/"><FaInstagramSquare /></a>
+        <a href="https://github.com/nicolemariej"><FaGithubSquare /></a>
 
-        </div>
+        </footer>
     )
 }

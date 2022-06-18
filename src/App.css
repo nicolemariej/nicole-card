@@ -11,7 +11,7 @@ body {
   color: #F5F5F5;
   margin: 40px 80px;
   border-radius: 7px;
-  padding: 0px, 50px, 20px,50px;
+  padding: 0px, 50px, 0px,50px;
 }
 
 .nicole-image{
@@ -61,7 +61,7 @@ h2{
 }
 
 .written-content{
-  padding: 50px;
+padding:50px
 }
 
 .email-btn{
@@ -95,4 +95,11 @@ display: flex;
 
 .linked-icon{
   margin-right: 10px;
+}
+
+footer{
+  background-color: #161619;
+padding: 40px;
+display: flex;
+justify-content: center;
 }
